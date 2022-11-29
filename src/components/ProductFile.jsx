@@ -12,14 +12,14 @@ export function ProductComponent(props) {
         <p>{product.name}</p>
       </div>
       <div className='buttons'>
-        <button onClick={() => onAdd(product)}>+</button>
+        {
+          item ? <button onClick={() => onRemove(product)}>-</button> : <button>-</button>
+        }
         <input 
           type="text"
           placeholder={item ? item.qty : 0}
         />
-        {
-          item ? <button onClick={() => onRemove(product)}>-</button> : <button>-</button>
-        }
+        <button onClick={() => onAdd(product)}>+</button>
       </div>
     </div>
   );
