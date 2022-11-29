@@ -6,10 +6,10 @@ export function NavbarComponent() {
       <nav>
         <img src="./home-icon.png" alt="" />
         <ul>
-          <a href="">How We Work</a>
-          <a href="">Services</a>
-          <a href="">Free Quote</a>
-          <a href="">Contact</a>
+          <a href="/#">How We Work</a>
+          <a href="/#">Services</a>
+          <a href="/#">Free Quote</a>
+          <a href="/#">Contact</a>
         </ul>
       </nav>
     </header>
