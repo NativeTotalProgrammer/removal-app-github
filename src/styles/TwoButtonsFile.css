@@ -1,0 +1,39 @@
+.clear-calculate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  width: 65%;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  color: #000000;
+  height: 61.16px;
+  width: 222.21px;
+  margin: 0.2rem;
+  cursor: pointer;
+  letter-spacing: 0.2rem;
+}
+
+.btn-white {
+  border: 2px solid #FD9255;
+  background-color: #FFFFFF;
+}
+
+.btn-white:hover {
+  border: 2px solid #9c9797;
+  background-color: #FD9255;
+}
+
+.btn-orange {
+  border: 2px solid #FFFFFF;
+  background-color: #FD9255;
+}
+
+.btn-orange:hover {
+  background-color: #FFFFFF;
+  border: 2px solid #FD9255;
+} 

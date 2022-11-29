@@ -1,0 +1,13 @@
+.items-general-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.items-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10rem;
+  width: 80%;
+}
